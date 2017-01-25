@@ -1,3 +1,3 @@
 test:
   override:
-    - echo hi
+    - terraform plan -var aws_key=$AWS_KEY -var aws_secret=$AWS_SECRET
