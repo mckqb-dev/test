@@ -4,4 +4,4 @@ dependencies:
     - sudo unzip tf.zip -d /usr/bin
 test:
   override:
-    - terraform plan -var aws_key=$AWS_KEY -var aws_secret=$AWS_SECRET
+    - terraform apply -var aws_key=$AWS_KEY -var aws_secret=$AWS_SECRET
